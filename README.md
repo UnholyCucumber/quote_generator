@@ -1,3 +1,3 @@
-# quote_generator
+# Quote Generator
 
 Generate inspirational quotes over different backgrounds
