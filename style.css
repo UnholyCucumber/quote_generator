@@ -1,0 +1,62 @@
+body {
+	color: #f8f8ff;
+	background: url('images/background12.jpg') no-repeat;
+	background-size: cover;
+	text-align: center;
+	background-attachment: fixed;
+}	
+
+#retrievedQuote {
+	padding-top: 5%;
+  	font-size: 3em;
+	font-family: "Cinzel Decorative",Georgia, serif;
+	vertical-align: middle;
+	text-transform: uppercase;
+	max-width: 80%;
+	display: inline-block;
+}
+
+.container {
+	padding-top: 50px;
+}
+
+button {
+	font-family: "Cinzel Decorative",Georgia, serif;
+	font-size: 135%;
+	font-weight: 400;
+	color: #f8f8ff;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: solid #f8f8ff;
+	padding: 10px 20px;
+	border-radius: 9px;
+	transition: all 0.5s;
+	background-color: transparent;
+}
+
+button:hover {
+	color: #66a8d9;
+	border: solid #66a8d9;
+	cursor: pointer;
+}
+
+button:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+@media only screen and (max-width: 1000px) {
+    button {
+    	font-size: 75%;
+    	padding: 2.5px 5px;
+		border-radius: 4.5px;
+	}
+
+	#retrievedQuote {
+		padding-top: 20%;
+	  	font-size: 1.5em;
+		text-transform: uppercase;
+		max-width: 80%;
+		display: inline-block;
+	}
+}
